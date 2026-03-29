@@ -1,6 +1,16 @@
-__pycache__/
-*.pyc
-venv/
-.env
-outputs/
+# Python / Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/uploaded_files/
+backend/analyst.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+*.log
+
+# OS
 .DS_Store
+Thumbs.db
